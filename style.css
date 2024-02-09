@@ -1,0 +1,335 @@
+header{
+    background-image: url('./image/bg2.jpg');
+    height: 900px;
+    background-size: cover;
+    position: relative;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+ header h1{
+    
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white; 
+
+   
+    
+}
+header h6{
+    position: absolute;
+    bottom: 50%;
+    font-size: 20px;
+    left: 32%;
+    color: white;
+    
+}
+.xx{
+    position: absolute;
+    border: 5px solid gray;
+    background-color:gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:40%;
+    left: 22%;
+    width: 60%;
+    height: 80px;
+    
+}
+
+
+.rou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    position: absolute;
+   bottom: 30%;
+   left: 48%;
+   
+}
+.ss{
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white !important;
+    background-color: gray !important;
+    
+}
+.ss:hover{
+    background-color: rgb(54, 54, 157) !important;
+}
+.stret{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.streti{
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 50px;
+    
+    margin: 30px;
+    transition: 1s;
+    
+
+
+}
+.streti:hover{
+    transform: scale(1.3);
+    z-index:2;
+    
+    
+
+}
+
+   
+
+ 
+
+
+h5:hover{
+
+    color: blue;
+    
+    
+
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 325;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.thing-div{
+    background-color:rgb(243, 238, 238) ;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    padding-top: 50px;
+    
+}
+.thing-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.thing-img1-div{
+    display: block;
+}
+.t-img-1{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    position: relative;
+}
+.t-img-1 .t-img{
+    object-fit: cover;
+    /* transition: transform 0.8s; */
+    height: 100%;
+    transition: 1.8s;
+
+
+}
+    
+/* .t-img-1:hover .t-img{
+-ms-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform:scale(1.1); */
+ 
+.t-img-1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+ 
+.t-img-3{
+    height: 420px;
+    overflow: hidden;
+    border-radius: 7px;
+    margin: 0px 1%;
+    position: relative;
+}
+.t-img-3 .t-img{
+object-fit: cover;
+transition: transform 0.8s;
+height: 100%;
+}
+.t-img-3:hover{
+    /* -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); */
+    transform:scale(1.1) ;
+    z-index: 1;
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+.men{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 120px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: white(247, 215, 215);
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+
+}
+.cardi{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    line-height:30px;
+    width: 80%;
+    margin:auto;
+    height: 450px;
+
+    
+    text-align: center;
+    
+}
+.tt{
+    width: 250px;
+    margin: auto;
+}
+.size{
+    width: 300px;
+
+}
+.left{
+    
+    text-align: left;
+    
+
+
+  }
+  
+  .mee{
+    height: 350px;
+    width:100%;
+    display:flex;
+    text-align: center;
+    justify-content:space-around;
+
+    
+    margin-left: 80px;
+    
+  }
+  .left{
+    width:50%;
+   
+    font-size: 30px;
+    height: 300px;
+
+    
+ }
+ 
+ .pera{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(247, 243, 243);
+    font-size: 20px;
+    text-align: center;
+ }
+ .right{
+    width: 50%;
+    height: 300px;
+
+    
+ }
+ .zzz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 20%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+ 
+ }
+ .zzz h4{
+    color: rgb(87, 82, 82);
+ }
+ .ee{
+    color: gray;
+    font-size: 20px;
+ }
+ .ee:hover{
+ text-decoration: underline;
+ }
+ .navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+ }
+ .d-flex{
+    width: 30%;
+    height: 50px;
+    
+ }
+ 
+    
+ 
+ .uu:hover{
+    color: blue !important;
+ }
+ .vv{
+    width: 150px;
+    color: white !important;
+    background-color: aqua;
+
+ }
+ .vv:hover{
+    background-color: black !important;
+    color: white !important;
+    
+ }
+ .mm{
+    color: white !important;
+ }
+ .card-text{
+    color: gray;
+ }
+ .ii:hover{
+   color: blue !important;
+ }
+ .gg{
+    width: 300px;
+
+ }
+ .ss{
+    background-color: rgb(240, 215, 215) !important;
+ }
+ 
